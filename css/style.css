@@ -67,26 +67,26 @@ body,html{
     align-items: center;
     box-sizing: border-box;
 }
-.kiri{
+.sec1 .kiri{
     flex: 1;
     padding-left: 130px;
     box-sizing: border-box;
 }
-.kiri h2{
+.sec1 .kiri h2{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 100;
     font-size: 41px;
 }
-.kiri h3{
+.sec1 .kiri h3{
     margin-top: -40px;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
     font-size: 55px;
 }
-.kiri h3 span{
+.sec1 .kiri h3 span{
     color: #26f;
 }
-.kiri .tombol{
+.sec1 .kiri .tombol{
     z-index: 1;
     position: absolute;
     margin-top: -40px;
@@ -101,22 +101,22 @@ body,html{
     background-color: #26f;
     transition: 0.4s ease-in-out;
 }
-.kiri .tombol:hover{
+.sec1 .kiri .tombol:hover{
     background-color: rgb(58, 117, 255);
     margin-left: 10px;
 }
-.kiri .tombol a{
+.sec1 .kiri .tombol a{
     text-decoration: none;
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
-.kanan{
+.sec1 .kanan{
     flex: 1;
     padding-right: 130px;
     box-sizing: border-box;
 }
-.kanan img{
+.sec1 .kanan img{
     margin-left: 15vw;
     width: 400px;
 }
@@ -156,6 +156,9 @@ body,html{
     font-size: 27px;
     margin-top: 0px;
     color: #26f;
+}
+.about h2 img{
+    width: 20px;
 }
 .about p{
     margin-top: -20px;
@@ -523,12 +526,40 @@ body,html{
 }
 .sec4{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    box-sizing: border-box;
     width: 100%;
     height: 750px;
     background-color: #1C1C1C;
     color: white;
+}
+.sec4 .kiri{
+    display: flex;  
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 20px;
+}
+.sec4 .kiri h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+}
+.sec4 .kanan{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 20px;
+}
+.sec4 .kanan h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: 56px;
 }
 .sec5{
     display: flex;
