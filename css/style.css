@@ -127,6 +127,7 @@
     .sec1 .kanan img{
         margin-left: 15vw;
         width: 400px;
+        box-sizing: border-box;
     }
     .sec2{
         display: flex;
@@ -135,6 +136,7 @@
         width: 100%;
         height: 766px;
         background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
     }
     .profile{
         flex: 1;
@@ -294,6 +296,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        box-sizing: border-box;
         width: 100%;
         height: 750px;
         background-color: rgb(255, 255, 255);
@@ -340,7 +343,6 @@
         transition: 0.5s ease-in-out;
         overflow: hidden;
         padding-top: 100px;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
         box-sizing: border-box;
     }
     .card1 .content1{
@@ -409,7 +411,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
     }
     .card2 .content2{
         margin-top: -20px;
@@ -477,7 +478,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
     }
     .card3 .content3{
         margin-top: -20px;
@@ -531,7 +531,6 @@
         padding-top: 15vh;
         box-sizing: border-box;
         justify-content: center;
-        box-sizing: border-box;
         width: 100%;
         height: 820px;
         background-color: #1c1c1c;
@@ -803,6 +802,7 @@
     .sec1 .kanan img{
         margin-left: 15vw;
         width: 400px;
+        box-sizing: border-box;
     }
     .sec2{
         display: flex;
@@ -811,6 +811,7 @@
         width: 100%;
         height: 766px;
         background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
     }
     .profile{
         flex: 1;
@@ -970,6 +971,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        box-sizing: border-box;
         width: 100%;
         height: 750px;
         background-color: rgb(255, 255, 255);
@@ -1016,7 +1018,6 @@
         transition: 0.5s ease-in-out;
         overflow: hidden;
         padding-top: 100px;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
         box-sizing: border-box;
     }
     .card1 .content1{
@@ -1085,7 +1086,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
     }
     .card2 .content2{
         margin-top: -20px;
@@ -1153,7 +1153,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
     }
     .card3 .content3{
         margin-top: -20px;
@@ -1638,6 +1637,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        box-sizing: border-box;
         width: 100%;
         height: 750px;
         background-color: rgb(255, 255, 255);
@@ -1684,7 +1684,6 @@
         transition: 0.5s ease-in-out;
         overflow: hidden;
         padding-top: 100px;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
         box-sizing: border-box;
     }
     .card1 .content1{
@@ -1753,7 +1752,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
     }
     .card2 .content2{
         margin-top: -20px;
@@ -1821,7 +1819,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
     }
     .card3 .content3{
         margin-top: -20px;
@@ -1874,7 +1871,8 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 90%;
+        box-sizing: border-box;
+        width: 100%;
         background-color: #1C1C1C;
         color: white;
         padding: 50px 50px 0 50px;
@@ -2095,7 +2093,7 @@
     }
     .sec1 .kiri{
         flex: 1;
-        padding-left: 130px;
+        padding-left: 50px;
         box-sizing: border-box;
     }
     .sec1 .kiri h2{
@@ -2139,10 +2137,11 @@
     }
     .sec1 .kanan{
         flex: 1;
+        box-sizing: border-box;
     }
     .sec1 .kanan img{
-        width: 300px;
-        padding-left: 50px;
+        width: 250px;
+        padding-left: 10px;
         box-sizing: border-box;
     }
     .sec2{
@@ -2318,6 +2317,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        box-sizing: border-box;
         width: 100%;
         height: 1350px;
         background-color: rgb(255, 255, 255);
@@ -2364,7 +2364,6 @@
         transition: 0.5s ease-in-out;
         overflow: hidden;
         padding-top: 100px;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
         box-sizing: border-box;
         margin-bottom: 50px;
     }
@@ -2433,7 +2432,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
         margin-bottom: 50px;
     }
     .card2 .content2{
@@ -2502,7 +2500,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
     }
     .card3 .content3{
         margin-top: -20px;
@@ -2555,14 +2552,14 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        width: 90%;
+        box-sizing: border-box;
+        width: 100%;
         background-color: #1C1C1C;
         color: white;
         padding: 50px 20px 50px 20px;
     }
     .sec4 .kiri{
         display: flex;
-        flex: 1;
         flex-direction: column;
         padding: 0px 50px;
         box-sizing: border-box;
@@ -2712,7 +2709,6 @@
         transition: 0.5s ease-in-out;
     }
     .logo{
-        flex: 1;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2723,7 +2719,6 @@
     }
     .tab{
         align-self: center;
-        flex: 1;
     }
     .tab ul{
         list-style: none;
@@ -2733,8 +2728,8 @@
         padding-left: 0px;
     }
     .tab ul li{
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
     .tab ul li a{
         padding: 10px 15px;
@@ -2766,7 +2761,6 @@
         flex-direction: column;
         align-items: center;
         padding-top: 155px;
-        padding-bottom: 0px;
     }
     .sec1 .kiri{
         text-align: center;
@@ -2781,19 +2775,19 @@
     .sec1 .kiri h2{
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 100;
-        font-size: 35px;
+        font-size: 30px;
     }
     .sec1 .kiri h3{
-        margin-top: -40px;
+        margin-top: -30px;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
-        font-size: 48px;
+        font-size: 40px;
     }
     .sec1 .kiri h3 span{
         color: #26f;
     }
     .sec1 .kiri .tombol{
-        margin-top: -40px;
+        margin-top: -30px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2819,6 +2813,7 @@
     }
     .sec1 .kanan img{
         width: 200px;
+        box-sizing: border-box;
     }
     .sec2{
         display: flex;
@@ -2828,8 +2823,8 @@
         width: 100%;
         height: 1166px;
         background-color: rgb(255, 255, 255); 
-        padding-right: 20vw;
-        padding-left: 20vw;
+        padding-right: 15vw;
+        padding-left: 15vw;
         box-sizing: border-box;
     }
     .profile{
@@ -2993,6 +2988,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        box-sizing: border-box;
         width: 100%;
         height: 1350px;
         background-color: rgb(255, 255, 255);
@@ -3039,7 +3035,6 @@
         transition: 0.5s ease-in-out;
         overflow: hidden;
         padding-top: 100px;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
         box-sizing: border-box;
         margin-bottom: 50px;
     }
@@ -3108,7 +3103,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
         margin-bottom: 50px;
     }
     .card2 .content2{
@@ -3177,7 +3171,6 @@
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
-        box-shadow: 4px 4px 7px 1px #b8b8b8;
     }
     .card3 .content3{
         margin-top: -20px;
@@ -3230,14 +3223,14 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        width: 90%;
+        box-sizing: border-box;
+        width: 100%;
         background-color: #1C1C1C;
         color: white;
-        padding: 50px 20px 50px 20px;
+        padding: 50px 10px 50px 10px;
     }
     .sec4 .kiri{
         display: flex;  
-        flex: 1;
         flex-direction: column;
         padding: 0px 50px;
         box-sizing: border-box;
@@ -3290,16 +3283,14 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        box-sizing: border-box;
         align-items: center;
         width: 100%;
-        height: 776px;
         background-color: #1c1c1c;
         color: white;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 100;
         font-size: 14px;
-        padding-bottom: 350px;
-        margin-bottom: 200px;
     }
     .sec6 .t-a{
         display: flex;
@@ -3329,9 +3320,9 @@
     .sec6 h1{
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
-        font-size: 56px;
+        font-size: 10vw;
         text-align: center;
-        padding: 0px 50px;
+        padding: 0px 20px;
     }
     .sec6 h2{
         font-weight: 400;
