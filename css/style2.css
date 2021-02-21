@@ -12,7 +12,6 @@ body,html{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     transition: 0.5s ease-in-out;
-    background-color: #1c1c1c;
 }
 .logo{
     flex: 0.5;
@@ -20,9 +19,9 @@ body,html{
     align-items: center;
     justify-content: start;
 }
-.logo .logo1 .material-icons{
-    margin-left: 20px;
-    font-size: 48px;
+.logo .logo1 img{
+    margin-left: 60px;
+    width: 35px;
 }
 .tab{
     align-self: center;
@@ -194,10 +193,13 @@ body,html{
     }
     .logo .logo1 img{
         padding-top: 20px;
+        margin-right: 60px;
         width: 35px;
     }
     .tab{
         align-self: center;
+        list-style: none;
+        margin-left: 75px;
     }
     .tab ul{
         list-style: none;
@@ -292,6 +294,7 @@ body,html{
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 100;
         font-size: 40px;
+        text-align: center;
     }
     .bungkus{
         display:flex;
