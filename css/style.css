@@ -228,7 +228,7 @@
         width: 20px;
         height: 20px;
         margin-right: 10px;
-        background-image: url("/img/contacts-white-48dp.svg");
+        background-image: url("/img/keyboard_alt-white-48dp.svg");
         background-position: center;
         background-size: cover;
     }
@@ -237,7 +237,7 @@
         width: 20px;
         height: 20px;
         margin-right: 10px;
-        background-image: url("/img/contacts-white-48dp.svg");
+        background-image: url("/img/memory-white-48dp.svg");
         background-position: center;
         background-size: cover;
     }
@@ -246,7 +246,7 @@
         width: 20px;
         height: 20px;
         margin-right: 10px;
-        background-image: url("/img/contacts-white-48dp.svg");
+        background-image: url("/img/power-white-48dp.svg");
         background-position: center;
         background-size: cover;
     }
@@ -256,7 +256,7 @@
         width: 20px;
         height: 20px;
         margin-right: 10px;
-        background-image: url("/img/contacts-white-48dp.svg");
+        background-image: url("/img/web-white-48dp.svg");
         background-position: center;
         background-size: cover;
     }
@@ -265,7 +265,7 @@
         width: 20px;
         height: 20px;
         margin-right: 10px;
-        background-image: url("/img/contacts-white-48dp.svg");
+        background-image: url("/img/art_track-white-48dp.svg");
         background-position: center;
         background-size: cover;
     }
@@ -274,7 +274,7 @@
         width: 20px;
         height: 20px;
         margin-right: 10px;
-        background-image: url("/img/contacts-white-48dp.svg");
+        background-image: url("/img/movie-white-48dp.svg");
         background-position: center;
         background-size: cover;
     }
@@ -528,19 +528,20 @@
     }
     .sec4{
         display: flex;
+        padding-top: 15vh;
+        box-sizing: border-box;
         justify-content: center;
         box-sizing: border-box;
         width: 100%;
-        height: 750px;
-        background-color: #1C1C1C;
+        height: 820px;
+        background-color: #1c1c1c;
         color: white;
     }
     .sec4 .kiri{
         display: flex;  
         flex: 1;
-        justify-content: center;
         flex-direction: column;
-        padding: 0px 100px;
+        padding: 0px 80px;
         font-family: 'Noto Sans JP', sans-serif;
         line-height: 20px;
     }
@@ -548,6 +549,7 @@
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
         font-size: 56px;
+        margin-bottom: 25px;
     }
     .sec4 h2{
         font-weight: 400;
@@ -556,6 +558,21 @@
     .sec4 h3{
         font-weight: 400;
         font-size: 20px;
+    }
+    .sec4 h3::after{
+        content:"";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+        cursor: pointer;
+        background-color: #26f;
+        border-radius: 50%;
+    }
+    .sec4 h4{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
     }
     .sec4 p{
         font-weight: 100;
@@ -568,11 +585,77 @@
     .sec4 .kanan{
         display: flex;
         flex: 1;
-        justify-content: center;
         flex-direction: column;
-        padding: 0px 100px;
+        padding: 0px 80px;
         font-family: 'Noto Sans JP', sans-serif;
         line-height: 20px;
+    }
+    .sec4 .kanan .bung1 p{
+        margin-top:-15px;
+    }
+    .sec4 .kanan .bung1 ul li{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+    }
+    .sec4 .kanan .bung1 ul li p{
+        margin-top: 0px;
+    }
+    .sec6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 776px;
+        background-color: #1c1c1c;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+    }
+    .sec6 .t-a{
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+    }
+    .sec6 .train{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+    }
+    .sec6 .achieve{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+    }
+    .sec6 h1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 56px;
+    }
+    .sec6 h2{
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .sec6 h3{
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 p{
+        margin-top: 0px;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 li {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
     }
     .sec5{
         display: flex;
@@ -1120,20 +1203,20 @@
         margin-top: 40px;
     }
     .sec4{
+        padding-top: 10vh;
         display: flex;
         justify-content: center;
         box-sizing: border-box;
         width: 100%;
-        height: 750px;
+        height: 820px;
         background-color: #1C1C1C;
         color: white;
     }
     .sec4 .kiri{
         display: flex;  
         flex: 1;
-        justify-content: center;
         flex-direction: column;
-        padding: 0px 100px;
+        padding: 0px 80px;
         font-family: 'Noto Sans JP', sans-serif;
         line-height: 20px;
     }
@@ -1150,6 +1233,17 @@
         font-weight: 400;
         font-size: 20px;
     }
+    .sec4 h3::after{
+        content:"";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+        cursor: pointer;
+        background-color: #26f;
+        border-radius: 50%;
+    }
     .sec4 p{
         font-weight: 100;
         font-size: 15px;
@@ -1158,14 +1252,72 @@
         font-weight: 100;
         font-size: 15px;
     }
+    
     .sec4 .kanan{
         display: flex;
         flex: 1;
-        justify-content: center;
         flex-direction: column;
-        padding: 0px 100px;
+        padding: 0px 80px;
         font-family: 'Noto Sans JP', sans-serif;
         line-height: 20px;
+    }    
+    .sec6{
+        padding-top: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 776px;
+        background-color: #1c1c1c;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+    }
+    .sec6 .t-a{
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+    }
+    .sec6 .train{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+    }
+    .sec6 .achieve{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+    }
+    .sec6 h1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 56px;
+    }
+    .sec6 h2{
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .sec6 h3{
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 p{
+        margin-top: 0px;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 li {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
     }
     .sec5{
         display: flex;
@@ -1721,16 +1873,16 @@
     .sec4{
         display: flex;
         justify-content: center;
-        box-sizing: border-box;
-        width: 100%;
-        height: 750px;
+        flex-direction: column;
+        width: 90%;
+        height: 820px;
         background-color: #1C1C1C;
         color: white;
+        padding: 250px 50px 0 50px;
     }
     .sec4 .kiri{
         display: flex;  
         flex: 1;
-        justify-content: center;
         flex-direction: column;
         padding: 0px 50px;
         box-sizing: border-box;
@@ -1738,6 +1890,7 @@
         line-height: 20px;
     }
     .sec4 h1{
+        text-align: center;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
         font-size: 56px;
@@ -1750,6 +1903,17 @@
         font-weight: 400;
         font-size: 20px;
     }
+    .sec4 h3::after{
+        content:"";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+        cursor: pointer;
+        background-color: #26f;
+        border-radius: 50%;
+    }
     .sec4 p{
         font-weight: 100;
         font-size: 15px;
@@ -1761,12 +1925,71 @@
     .sec4 .kanan{
         display: flex;
         flex: 1;
-        justify-content: center;
         flex-direction: column;
         padding: 0px 50px;
         box-sizing: border-box;
         font-family: 'Noto Sans JP', sans-serif;
         line-height: 20px;
+    }    
+    .sec6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 776px;
+        background-color: #1c1c1c;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        padding-top: 250px;
+    }
+    .sec6 .t-a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .sec6 .train{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .sec6 .achieve{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+    }
+    .sec6 h1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 56px;
+    }
+    .sec6 h2{
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .sec6 h3{
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 p{
+        margin-top: 0px;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 li {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
     }
     .sec5{
         display: flex;
@@ -2097,7 +2320,7 @@
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        height: 750px;
+        height: 1350px;
         background-color: rgb(255, 255, 255);
         color: black;
     }
@@ -2124,9 +2347,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         font-family: 'Noto Sans JP', sans-serif;
         color: white;
-        height: 380px;
+        height: 950px;
     }
     .card1{
         display: flex;
@@ -2138,12 +2362,12 @@
         border-radius: 20px;
         width: 250px;
         height: 250px;
-        margin-right: 20px;
         transition: 0.5s ease-in-out;
         overflow: hidden;
         padding-top: 100px;
         box-shadow: 4px 4px 7px 1px #b8b8b8;
         box-sizing: border-box;
+        margin-bottom: 50px;
     }
     .card1 .content1{
         margin-top: -20px;
@@ -2206,12 +2430,12 @@
         border-radius: 20px;
         width: 250px;
         height: 250px;
-        margin-right: 20px;
         transition: 0.5s ease-in-out;
         overflow: hidden;
         padding-top: 100px;
         box-sizing: border-box;
         box-shadow: 4px 4px 7px 1px #b8b8b8;
+        margin-bottom: 50px;
     }
     .card2 .content2{
         margin-top: -20px;
@@ -2331,16 +2555,16 @@
     .sec4{
         display: flex;
         justify-content: center;
-        box-sizing: border-box;
-        width: 100%;
-        height: 750px;
+        flex-direction: column;
+        width: 90%;
+        height: 820px;
         background-color: #1C1C1C;
         color: white;
+        padding: 350px 20px 170px 20px;
     }
     .sec4 .kiri{
         display: flex;  
         flex: 1;
-        justify-content: center;
         flex-direction: column;
         padding: 0px 50px;
         box-sizing: border-box;
@@ -2348,6 +2572,7 @@
         line-height: 20px;
     }
     .sec4 h1{
+        text-align: center;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
         font-size: 56px;
@@ -2360,6 +2585,17 @@
         font-weight: 400;
         font-size: 20px;
     }
+    .sec4 h3::after{
+        content:"";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+        cursor: pointer;
+        background-color: #26f;
+        border-radius: 50%;
+    }
     .sec4 p{
         font-weight: 100;
         font-size: 15px;
@@ -2371,12 +2607,73 @@
     .sec4 .kanan{
         display: flex;
         flex: 1;
-        justify-content: center;
         flex-direction: column;
         padding: 0px 50px;
         box-sizing: border-box;
         font-family: 'Noto Sans JP', sans-serif;
         line-height: 20px;
+    }    
+    .sec6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 776px;
+        background-color: #1c1c1c;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        padding-top: 250px;
+    }
+    .sec6 .t-a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .sec6 .train{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .sec6 .achieve{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+    }
+    .sec6 h1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 56px;
+        text-align: center;
+        padding: 0px 50px;
+    }
+    .sec6 h2{
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .sec6 h3{
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 p{
+        margin-top: 0px;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 li {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
     }
     .sec5{
         display: flex;
@@ -2400,6 +2697,674 @@
   
   @media (min-width: 320px) and (max-width: 480px) {
     
-    /* CSS */
+    body,html{
+        margin: 0;
+        padding: 0;
+        background-color: #1C1C1C;
+        color: white;
+    }
+    .navbar{
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        transition: 0.5s ease-in-out;
+    }
+    .logo{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo .logo1 img{
+        padding-top: 20px;
+        width: 35px;
+    }
+    .tab{
+        align-self: center;
+        flex: 1;
+    }
+    .tab ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .tab ul li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .tab ul li a{
+        padding: 10px 15px;
+        border-radius: 10px;
+        color: #26f;
+        display: flex;
+        align-content: center;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+    }
+    .tab ul li a .tit{
+        margin-top: 1px;
+        flex:1;
+    }
+    .tab ul li a .material-icons {
+        margin-right: 5px;
+        transition: 0.5s ease-in-out;
+        transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .tab ul li a:hover{
+        color: white;
+        background-color: #26f;
+    }
+    .sec1{
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 155px;
+        padding-bottom: 0px;
+    }
+    .sec1 .kiri{
+        text-align: center;
+        order: 2;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        padding: 0px 10px;
+    }
+    .sec1 .kiri h2{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        font-size: 35px;
+    }
+    .sec1 .kiri h3{
+        margin-top: -40px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 48px;
+    }
+    .sec1 .kiri h3 span{
+        color: #26f;
+    }
+    .sec1 .kiri .tombol{
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 10px;
+        width: 130px;
+        height: 20px;
+        background-color: #26f;
+        transition: 0.4s ease-in-out;
+    }
+    .sec1 .kiri .tombol:hover{
+        background-color: rgb(58, 117, 255);
+    }
+    .sec1 .kiri .tombol a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+    .sec1 .kanan{
+        order: 1;
+        flex: 0.5;
+    }
+    .sec1 .kanan img{
+        width: 200px;
+    }
+    .sec2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 1166px;
+        background-color: rgb(255, 255, 255); 
+        padding-right: 20vw;
+        padding-left: 20vw;
+        box-sizing: border-box;
+    }
+    .profile{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile img{
+        margin-top: 50px;
+        margin-bottom: 0px;
+        width: 45vw;
+    }
+    .about{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        color: black;
+    }
+    .about h1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 56px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .about h2{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 27px;
+        margin-top: 0px;
+        color: #26f;
+    }
+    .about h2 img{
+        width: 20px;
+    }
+    .about p{
+        margin-top: -20px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: justify;
+       
+    }
+    .about .tis{
+        margin-bottom: 10px;
+    }
+    .about .skill{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .about .skill .kanans{
+        flex:1;
+        width: 100%;
+    }
+    .about .skill .kanans p{
+        margin-left: 10px;
+        font-size: 10px;
+        padding-right: 20px;
+    }
+    .about .skill .kiris{
+        flex:1;
+        width: 100%;
+    }
+    .about .skill .kiris p{
+        margin-left: 10px;
+        font-size: 10px;
+        padding-right: 20px;
+    }
+    .k1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        background-color:#26f;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        transition: 0.5s ease-in-out;
+        color: white;
+        overflow: hidden;
+    }
+    .k1 .material-icons{
+        display: none;
+    }
+    /* icon kanan */
+    #ka1::before{
+        content:"";
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-image: url("/img/contacts-white-48dp.svg");
+        background-position: center;
+        background-size: cover;
+    }
+    #ka2::before{
+        content:"";
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-image: url("/img/contacts-white-48dp.svg");
+        background-position: center;
+        background-size: cover;
+    }
+    #ka3::before{
+        content:"";
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-image: url("/img/contacts-white-48dp.svg");
+        background-position: center;
+        background-size: cover;
+    }
+    /* icon kiri */
+    #ki1::before{
+        content:"";
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-image: url("/img/contacts-white-48dp.svg");
+        background-position: center;
+        background-size: cover;
+    }
+    #ki2::before{
+        content:"";
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-image: url("/img/contacts-white-48dp.svg");
+        background-position: center;
+        background-size: cover;
+    }
+    #ki3::before{
+        content:"";
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-image: url("/img/contacts-white-48dp.svg");
+        background-position: center;
+        background-size: cover;
+    }
+    .k1::before{
+        margin-left: -30px;
+        transition: 0.5s ease-in-out;
+    }
+    .k1:hover::before{
+        margin-left: 0px;
+    }
+    .k1:hover{
+        background-color: rgb(7, 73, 228);
+        color: white;
+        margin-left: 0px;
+    }
+    .sec3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 1350px;
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+    .title3{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+    }
+    .title3 h1{
+        display: block;
+        background-color: #26f;
+        width: 300px;
+        height: 56px;
+        line-height: 0px;
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 56px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .bungkus3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: white;
+        height: 950px;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #1c1c1c;
+        border-radius: 20px;
+        width: 250px;
+        height: 250px;
+        transition: 0.5s ease-in-out;
+        overflow: hidden;
+        padding-top: 100px;
+        box-shadow: 4px 4px 7px 1px #b8b8b8;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    .card1 .content1{
+        margin-top: -20px;
+    }
+    .card1::before{
+        content: "";
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        background-image: url("/img/brush-black-48dp.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 0.9s ease-in-out;
+    }
+    .card1:hover{
+        height: 370px;
+        width: 250px;
+    }
+    .card1:hover::before{
+        margin-top: -100px;
+        margin-bottom: 20px;
+        width: 70px;
+        height: 70px;
+        font-size:20px;
+    }
+    .card1 span{
+        text-align: justify;
+        padding: 0 40px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .card1 h1{
+        padding: 0 40px;
+        margin-top: 10px;
+        line-height: 1.2;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .card1 a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 10px;
+        color: white;
+        margin-top: 40px;
+    }
+    /*
+    .card1:hover{
+        transform: scale(1.05);
+    }*/
+    .card2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #1c1c1c;
+        border-radius: 20px;
+        width: 250px;
+        height: 250px;
+        transition: 0.5s ease-in-out;
+        overflow: hidden;
+        padding-top: 100px;
+        box-sizing: border-box;
+        box-shadow: 4px 4px 7px 1px #b8b8b8;
+        margin-bottom: 50px;
+    }
+    .card2 .content2{
+        margin-top: -20px;
+    }
+    .card2::before{
+        content: "";
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        background-image: url("/img/web-black-48dp.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 0.9s ease-in-out;
+    }
+    .card2:hover{
+        height: 370px;
+        width: 250px;
+    }
+    .card2:hover::before{
+        margin-top: -100px;
+        margin-bottom: 20px;
+        width: 70px;
+        height: 70px;
+        font-size:20px;
+    }
+    .card2 span{
+        text-align: justify;
+        padding: 0 40px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .card2 h1{
+        padding: 0 40px;
+        margin-top: 10px;
+        line-height: 1.2;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .card2 a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 10px;
+        color: white;
+        width: 100px;
+        height: 40px;
+        margin-top: 50px;
+    }
+    .card2 a img{
+        margin-top: 30px;
+    }
+    .card3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #1c1c1c;
+        border-radius: 20px;
+        width: 250px;
+        height: 250px;
+        transition: 0.5s ease-in-out;
+        overflow: hidden;
+        padding-top: 100px;
+        box-sizing: border-box;
+        box-shadow: 4px 4px 7px 1px #b8b8b8;
+    }
+    .card3 .content3{
+        margin-top: -20px;
+    }
+    .card3::before{
+        content: "";
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        background-image: url("/img/power-black-48dp.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 0.9s ease-in-out;
+    }
+    .card3:hover{
+        height: 370px;
+        width: 250px;
+    }
+    .card3:hover::before{
+        margin-top: -100px;
+        margin-bottom: 20px;
+        width: 70px;
+        height: 70px;
+        font-size:20px;
+    }
+    .card3 span{
+        text-align: justify;
+        padding: 0 40px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .card3 h1{
+        padding: 0 40px;
+        margin-top: 10px;
+        line-height: 1.2;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .card3 a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 10px;
+        color: white;
+        margin-top: 40px;
+    }
+    .sec4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        height: 820px;
+        background-color: #1C1C1C;
+        color: white;
+        padding: 570px 20px 170px 20px;
+    }
+    .sec4 .kiri{
+        display: flex;  
+        flex: 1;
+        flex-direction: column;
+        padding: 0px 50px;
+        box-sizing: border-box;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 20px;
+    }
+    .sec4 h1{
+        text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 56px;
+    }
+    .sec4 h2{
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .sec4 h3{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .sec4 h3::after{
+        content:"";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+        cursor: pointer;
+        background-color: #26f;
+        border-radius: 50%;
+    }
+    .sec4 p{
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec4 .kiri .bung ul li{
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec4 .kanan{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 0px 50px;
+        box-sizing: border-box;
+        font-family: 'Noto Sans JP', sans-serif;
+        line-height: 20px;
+    }    
+    .sec6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 776px;
+        background-color: #1c1c1c;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+        padding-top: 350px;
+        padding-bottom: 350px;
+        margin-bottom: 200px;
+    }
+    .sec6 .t-a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .sec6 .train{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .sec6 .achieve{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        padding: 10px 30px;
+        background-color: #26f;
+        border-radius: 20px;
+    }
+    .sec6 h1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+        font-size: 56px;
+        text-align: center;
+        padding: 0px 50px;
+    }
+    .sec6 h2{
+        font-weight: 400;
+        font-size: 28px;
+    }
+    .sec6 h3{
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 p{
+        margin-top: 0px;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .sec6 li {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 400;
+    }
+    .sec5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        background-color: #000000;
+        color: white;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 100;
+        font-size: 14px;
+    }   
     
   }
