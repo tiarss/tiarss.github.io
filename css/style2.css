@@ -1,3 +1,4 @@
+@media (max-width: 1281px) and (min-width:480px){
 body,html{
     margin: 0;
     padding: 0;
@@ -139,6 +140,7 @@ body,html{
     width: 400px;
     background-color: rgb(8, 31, 83);
 }
+}
 /*
 .bungkus1{
     display: flex;
@@ -176,6 +178,12 @@ body,html{
     background-color: rgb(2, 15, 44);
 }*/
 @media (min-width: 320px) and (max-width: 480px) {
+    body,html{
+        margin: 0;
+        padding: 0;
+        background-color: #1c1c1c;
+        color: white;
+    }
     .navbar{
         z-index: 2;
         position: fixed;
@@ -193,13 +201,10 @@ body,html{
     }
     .logo .logo1 img{
         padding-top: 20px;
-        margin-right: 60px;
         width: 35px;
     }
     .tab{
         align-self: center;
-        list-style: none;
-        margin-left: 75px;
     }
     .tab ul{
         list-style: none;
@@ -310,6 +315,7 @@ body,html{
         justify-content: center;
         align-items: center;
         margin-bottom: 10px;
+        margin-right: 0px;
         height: 400px;
         width: 400px;
         background-color: rgb(8, 31, 83);
