@@ -296,6 +296,10 @@ body,html{
         width: 20px;
         background-color: #26f;
     }
+    .bungkus .kotak1{
+        height: 300px;
+        width: 300px;
+    }
 }
 @media (min-width: 320px) and (max-width: 480px) {
     body,html{
@@ -473,8 +477,8 @@ body,html{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         background-color:#26f;
         transition: 0.5s ease-in-out;
         
@@ -497,26 +501,26 @@ body,html{
 .k1{
     background-image: url("/img/port-deg1.png");
     background-position: center;
-    background-size: 400px;
+    background-size: 300px;
 }
 .k2{
     background-image: url("/img/port-deg2.png");
     background-position: center;
-    background-size: 400px;
+    background-size: 300px;
 }
 .k3{
     background-image: url("/img/port-deg3.png");
     background-position: center;
-    background-size: 400px;
+    background-size: 300px;
 }
 .k-w1{
     background-image: url("/img/Instagram\ post\ -\ 1.png");
     background-position: center;
     background-size: cover;
-    background-size: 400px;
+    background-size: 300px;
 }
 .bungkus .kotak1:hover{
-    background-size: 300px;
+    background-size: 200px;
     filter: grayscale(0);
 }
 .bungkus .kotak1{
