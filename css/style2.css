@@ -1,3 +1,16 @@
+.kotak1 h2{
+    text-align: left;
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    color: #26f;
+    padding: 5px 10px 7px;
+    background-color: #131313;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 20px 20px;
+}
 @media (max-width: 1366px) and (min-width:480px){
 body,html{
     margin: 0;
@@ -548,6 +561,19 @@ body,html{
         color: black;
         margin: 5px;
     }
+    .kotak1 h2{
+        text-align: left;
+        position: absolute;
+        display: block;
+        left: 0;
+        bottom: 0;
+        color: #26f;
+        padding: 5px 10px 7px;
+        background-color: #131313;
+        border-radius: 10px;
+        font-size: 14px;
+        margin: 20px 20px;
+    }
 }
 ::-webkit-scrollbar{
     position: absolute;
@@ -561,41 +587,39 @@ body,html{
 .k1{
     background-image: url("/img/port-deg1.png");
     background-position: center;
-    background-size: 300px;
+    background-size: 400px;
 }
 .k2{
     background-image: url("/img/port-deg2.png");
     background-position: center;
-    background-size: 300px;
+    background-size: 400px;
 }
 .k3{
     background-image: url("/img/port-deg3.png");
     background-position: center;
-    background-size: 300px;
+    background-size: 400px;
 }
 .k-w1{
-    background-image: url("/img/portwe1.jpg");
+    background-image: url("/img/Instagram\ post\ -\ 1.png");
     background-position: center;
-    background-size: 300px;
+    background-size: 400px;
 }
 .k-w2{
-    background-image: url("/img/portwe2.png");
+    background-image: url("/img/Instagram\ post\ -\ 2.png");
     background-position: center;
-    background-size: 300px;
+    background-size: 400px;
+}
+.k-p1{
+    background-image: url("/img/Instagram\ post\ -\ 4.png ");
+    background-position: center;
+    background-size: 400px;
 }
 .bungkus .kotak1:hover{
-    background-size: 200px;
+    background-size: 390px;
     filter: grayscale(0);
 }
 .bungkus .kotak1{
     filter: grayscale(0.3);
-}
-.kotak1 h2{
-    color: #26f;
-    padding: 5px 10px 7px;
-    background-color: #1c1c1c;
-    border-radius: 10px;
-    font-size: 18px;
 }
 .fut {
     display: flex;

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/portfolio/css-p/style.css">
+    <title>Portfolio | Desain Graphic</title>
+</head>
+<body>
+    <div class="navbar" id="navbar1">
+        <div class="logo">
+            <div class="logo1">
+                <img src="../img/icon.png" alt="">
+            </div>
+        </div>
+        <div class="tab">
+            <ul>
+                <li>
+                    <a href="/index.html" id="tab1">
+                        <span class="material-icons" id="ich">
+                            home
+                        </span>
+                        <span class="tit">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/portfolio.html" id="tab2">
+                        <span class="material-icons" id="icw">
+                            work
+                        </span>
+                        <span class="tit">Portfolio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact.html" id="tab3">
+                        <span class="material-icons" id="icc">
+                            contacts
+                        </span>
+                        <span class="tit">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="burger">
+            <input type="checkbox" class="check">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="pic">
+            <h1>Electronic and Programming</h1>
+        </div>
+    </section>
+    <section class="sec-1">
+        <!-- ganti gambar dulu cuy  -->
+        <img src="../img/Desktop - 6.png" alt="">
+        <h2>Tugas Akhir : Kontrol Kecepatan Robot Kapal untuk Kestabilan Heading menggunakan <i>Inertial Measurement Unit</i></h2>
+        <h3>2019 s/d 2020</h3>
+        <p>Perancangan sistem kontrol kecepatan robot kapal terhadap sudut heading kapal menggunakan sensor IMU yang akan dikerjakan pada proyek akhir ini merupakan sebuah sistem dimana robot kapal dapat menyesuaikan arah kapalnya sesuai dengan setting arah kapal di awal yang menggunakan dari sensor yang ada pada modul IMU, MPU 9250. Sistem ini dilengkapi dengan 1 modul IMU yang dipasang pada bagian tengah kapal. Data pada sensor digunakan untuk proses kontrol pada daun kemudi kapal yang dikendalikan dengan Motor Servo DS3218 dengan sudut pergerakan 120 derajat. Sehingga jika terjadi error pada sudut orientasi heading maka servo akan bergerak untuk mengembalikan arah sudut kapal pada set point awal. Kapal akan dikendalikan oleh Remote Control melalui aplikasi android yang terhubung melalui WiFi. Penggerak dari kapal ini adalah Motor BLDC. Motor BLDC akan berfungsi untuk mempercepat perbaikan heading kapal ke sudut setpoint nya. Berikut merupakan hasil implementasi perancangan sistem</p>
+        <img src="../img/Blok-Diagram Sistem-New.jpg" alt="">
+        <p>Pada blok diagram diatas, terdapat beberapa komponen penting. Seperti yang telah di jelaskan sebelumnya. Berikut merupakan Keterangan bagian bagian pada blok diagram :</p>
+        <ol>
+            <li>Input yang digunakan adalah IMU MPU9250, berfungsi sebagai pengirim data 3 axis accelerometer, 3 axis gyroscope dan 3 axis magnetometer yang selanjutnya akan diolah oleh microcontroller. Selain itu input juga berasal dari ESP-01 dan Smartphone dengan aplikasi android. Keduanya berperan dalam pengiriman data perintah kepada mikrokontroller sebagai remote control. Tidak lupa juga Catu daya sebagai input bagi mikrokontroller dan Motor BLDC.</li>
+            <li>Mikrokontroller STM32F4 Discovery sebagai tempat memproses data input hingga diproses juga sebagai data output.</li>
+            <li>Output berupa actuator yaitu servo sebagai pengendali arah kapal dan motor bldc sebagai pengendali gerak kapal.</li>
+        </ol>
+        <p>Jika Ada Pertanyaan, Bisa Mengirim Pesan pada <a href="../contact.html">Contact</a></p>
+    </section>
+    <footer>
+        <div class="fut">
+            <p>Copyright by Bahtiar Subrata</p>
+        </div>
+    </footer>
+</body>
+<script src="../js/animate.js"></script>
+<script src="../js/burger.js"></script>
+</html>

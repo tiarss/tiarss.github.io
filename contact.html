@@ -62,13 +62,13 @@
         </div>
     </section>
     <section class="sec-1">
-        <!-- ganti gambar dulu cuy  -->
-        <img src="/img/600x800.jpg" alt="">
-        <div class="con">
-            <h2>R.P. Muhammad Bahtiar Subrata</h2>
-            <h3>4 April 1998</h3>
-            <p>Robot Nation merupakan Projek Akhir dari Mata Kuliah Kewirausahaan tentang perencanaan usaha yang yang ingin dilakukan. Robot Nation merupakan kit Robot Lego yang dapat dirakit sendiri dirumah dengan berbagai keunggulan salah satunya terdapat fitur Online Video Conference dengan Tutor Robot yang sangat memudahkan dalam perakitan ditengah Pandemi. Selain itu juga terdapat Video Tutorial lain yang terdapat di dalam kit yang dapat ditonton berulang ulang.</p>
-        </div>
+        <h1>Contact Me</h1>
+        <form name="submit-to-google-sheet">
+            <input name="email" type="email" placeholder="Email" required>
+            <input name="name" type="text" placeholder="Nama">
+            <textarea name="pesan" type="text" placeholder="Pesan"></textarea>
+            <button type="submit">Send</button>
+        </form>
     </section>
     <footer>
         <div class="fut">
@@ -78,4 +78,15 @@
 </body>
 <script src="../js/animate.js"></script>
 <script src="../js/burger.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxbxG4L0zFak_PPJztFODPBcekI1KhvEj7YSnUfWwL2bCcuU_WiA44R6VMD3kBU-sVomw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </html>

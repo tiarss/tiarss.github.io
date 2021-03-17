@@ -120,7 +120,6 @@ html,body{
     align-items: center;
     width: 100%;
     height: 300px;
-    background-color: #1c1c1c;
     margin-bottom: 50px;
 }
 .pic h1{
@@ -129,47 +128,78 @@ html,body{
     font-size: 3rem;
 }
 .sec-1{
-    padding: 0px 100px;
+    padding: 0px 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-bottom: 50px;
-}
-.sec-1 img{
-    width: 30%;
-}
-.sec-1 .con{
-    padding: 0;
-}
-.sec-1 h2{
-    align-self: flex-start;
+    color: white;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    font-size: 2.5rem;
-    padding: 0 10%;
-    margin-bottom: 0px;
-    color: white;
 }
-.sec-1 h3{
-    width: 5rem;
-    margin-left: 10%;
-    background-color: #26f;
-    color: white;
-    align-self: flex-start;
+.sec-1 form{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+    background: none;
+}
+.sec-1 form input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    background: #1c1c1c;
+    resize: none;
+    border: 0;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    font-size: .8rem;
-    text-align: center;
-    padding: 7px 20px;
-    border-radius: 10px;
+    border-bottom: 2px solid #434f85;
+    color: white;
+}
+.sec-1 form textarea{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 30px;
+    outline: none;
+    background: #1c1c1c;
+    resize: none;
+    border: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    border-bottom: 2px solid #434f85;
+    color: white;
+}
+.sec-1 form :nth-child(3){
+    height: 100px;
+}
+.sec-1 form input:focus{
+    background: rgb(22, 22, 22);
+}
 
-}
-.sec-1 p{
-    padding: 0 10%;
-    text-align: justify;
+.sec-1 form button{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    color: red;
+    background-color: #26f;
+    border: none;
+    color: white;
+    padding: 7px 32px 10px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.sec-1 form button:hover{
+    background-color: rgb(58, 117, 255);
 }
 .fut {
     display: flex;
@@ -297,10 +327,13 @@ html,body{
     }
     .sec-1{
         flex-direction: column;
-        padding: 0 50px;
+        padding: 0 30px;
     }
     .sec-1 img{
         width: 60%;
+    }
+    .sec-1 form{
+        width: 90%;
     }
 }
 @media ( max-width: 480px ){
@@ -432,7 +465,7 @@ html,body{
     }
     .sec-1{
         flex-direction: column;
-        padding: 0 50px;
+        padding: 0 20px;
     }
     .sec-1 img{
         width: 60%;
@@ -446,5 +479,8 @@ html,body{
     }
     .sec-1 p{
         padding: 0 5%;
+    }
+    .sec-1 form{
+        width: 100%;
     }
 }
