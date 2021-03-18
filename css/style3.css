@@ -12,7 +12,7 @@ html,body{
     padding: 0;
     background-color: #1c1c1c;
 }
-.navbar{
+.mynavbar{
     z-index: 2;
     position: fixed;
     width: 100%;
@@ -164,7 +164,9 @@ html,body{
     font-weight: 400;
 }
 .sec-1 h1{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    font-weight: 100;
+    font-size: 56px;
 }
 .sec-1 form{
     width: 60%;
@@ -242,8 +244,16 @@ html,body{
     font-weight: 100;
     font-size: 12px;
 }
+.container .alert{
+    background-color: rgb(210, 255, 143);
+    padding: 5px 20px 7px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: green;
+    display: none;
+}
 @media (min-width: 481px) and (max-width: 767px) {
-    .navbar{
+    .mynavbar{
         z-index: 2;
         position: fixed;
         width: 100%;
@@ -365,7 +375,7 @@ html,body{
     }
 }
 @media ( max-width: 480px ){
-    .navbar{
+    .mynavbar{
         z-index: 2;
         position: fixed;
         width: 100%;
@@ -484,29 +494,23 @@ html,body{
     .burger .check:checked ~ :nth-child(4){
         transform: rotate(-45deg) translateY(-1px);
     }
-    .pic h1{
-        font-family: 'Noto Sans JP', sans-serif;
-        font-weight: 400;
-        text-align: center;
-        font-size: 2.5rem;
-        margin-top:50px;
-    }
+
     .sec-1{
         flex-direction: column;
-        padding: 0 20px;
+        padding: 0 50px;
     }
     .sec-1 img{
         width: 60%;
     }
-    .sec-1 h2{
-        font-size: 1.5rem;
+    .sec-1 p{
+        font-size: 10px;
+    }
+    .sec-1 h1{
+        font-size: 2rem;
         padding: 0 5%;
     }
     .sec-1 h3{
         margin-left: 5%;
-    }
-    .sec-1 p{
-        padding: 0 5%;
     }
     .sec-1 form{
         width: 100%;

@@ -835,6 +835,7 @@ body,html{
         color: #26f;
     }
     .sec1 .kiri .tombol{
+        cursor: pointer;
         z-index: 1;
         position: absolute;
         margin-top: -40px;
@@ -852,7 +853,7 @@ body,html{
     .sec1 .kiri .tombol:hover{
         background-color: rgb(58, 117, 255);
     }
-    .sec1 .kiri .tombol a{
+    .sec1 .kiri .tombol{
         text-decoration: none;
         color: white;
         font-family: 'Inter', sans-serif;
@@ -1516,6 +1517,7 @@ body,html{
         color: #26f;
     }
     .sec1 .kiri .tombol{
+        cursor: pointer;
         z-index: 1;
         position: absolute;
         margin-top: -40px;
@@ -1533,7 +1535,7 @@ body,html{
     .sec1 .kiri .tombol:hover{
         background-color: rgb(58, 117, 255);
     }
-    .sec1 .kiri .tombol a{
+    .sec1 .kiri .tombol{
         text-decoration: none;
         color: white;
         font-family: 'Inter', sans-serif;
@@ -2252,6 +2254,7 @@ body,html{
         color: #26f;
     }
     .sec1 .kiri .tombol{
+        cursor: pointer;
         z-index: 1;
         position: absolute;
         margin-top: -40px;
@@ -2269,7 +2272,7 @@ body,html{
     .sec1 .kiri .tombol:hover{
         background-color: rgb(58, 117, 255);
     }
-    .sec1 .kiri .tombol a{
+    .sec1 .kiri .tombol{
         text-decoration: none;
         color: white;
         font-family: 'Inter', sans-serif;
@@ -2981,6 +2984,7 @@ body,html{
         color: #26f;
     }
     .sec1 .kiri .tombol{
+        cursor: pointer;
         margin-top: -30px;
         display: flex;
         justify-content: center;
@@ -2995,7 +2999,7 @@ body,html{
     .sec1 .kiri .tombol:hover{
         background-color: rgb(58, 117, 255);
     }
-    .sec1 .kiri .tombol a{
+    .sec1 .kiri .tombol{
         text-decoration: none;
         color: white;
         font-family: 'Inter', sans-serif;
