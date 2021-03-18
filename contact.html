@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style3.css">
     <title>Bahiar Subrata | Contact</title>
 </head>
@@ -18,7 +19,7 @@
     <div class="navbar" id="navbar1">
         <div class="logo">
             <div class="logo1">
-                <img src="img/icon.png" alt="">
+                <a href="/index.html"><img src="img/icon.png" alt=""></a>
             </div>
         </div>
         <div class="tab">
@@ -56,18 +57,25 @@
             <span></span>
         </div>
     </div>
-    <section class="hero">
-        <div class="pic">
-            <h1>Contact</h1>
-        </div>
+    <section class="titleu">
+        <h1>Contact</h1>
+        <span>Photo by <a href="https://unsplash.com/@zal3wa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Damian Zaleski</a> on <a href="/s/photos/contact?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
     </section>
     <section class="sec-1">
         <h1>Contact Me</h1>
+        <div class="container container-sm col-xl-6 col-md-6 col-sm-9">
+            <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+                <strong>Terima Kasih ! </strong> Pesan Berhasil Dikirim :)
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+        </div>  
         <form name="submit-to-google-sheet">
             <input name="email" type="email" placeholder="Email" required>
             <input name="name" type="text" placeholder="Nama">
             <textarea name="pesan" type="text" placeholder="Pesan"></textarea>
-            <button type="submit">Send</button>
+            <button class="btni" type="submit">Send</button>
         </form>
     </section>
     <footer>
@@ -75,17 +83,29 @@
             <p>Copyright by Bahtiar Subrata</p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 <script src="../js/animate.js"></script>
 <script src="../js/burger.js"></script>
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxbxG4L0zFak_PPJztFODPBcekI1KhvEj7YSnUfWwL2bCcuU_WiA44R6VMD3kBU-sVomw/exec'
     const form = document.forms['submit-to-google-sheet']
-  
+    const myAlert = document.querySelector('.alert');
+
     form.addEventListener('submit', e => {
       e.preventDefault()
+      //ketika tombol submit di klik
+      //tampilkan tombol loading, hilangkan tombol kirim
+
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
+        .then(response =>{
+            //tampilkan alrm
+            myAlert.classList.toggle('d-none');
+            //reset form
+            form.reset();
+            console.log('Success!', response)
+        })
         .catch(error => console.error('Error!', error.message))
     })
   </script>

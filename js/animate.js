@@ -26,3 +26,6 @@ function scrollFunction() {
 
   }
 }
+function scrollatas(){
+  document.getElementById('sec-2').scrollIntoView();
+}

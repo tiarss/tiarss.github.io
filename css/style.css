@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 ::-webkit-scrollbar{
     position: absolute;
     background-color: #1c1c1c;
@@ -10,6 +13,9 @@
 /* CSS */
 .sec1 {
     overflow-x: hidden;
+}
+.about h2 img{
+    margin-left: 10px;
 }
 footer {
     display: flex;
@@ -135,6 +141,7 @@ body,html{
     color: #26f;
 }
 .sec1 .kiri .tombol{
+    cursor: pointer;
     z-index: 1;
     position: absolute;
     margin-top: -40px;
@@ -152,7 +159,7 @@ body,html{
 .sec1 .kiri .tombol:hover{
     background-color: rgb(58, 117, 255);
 }
-.sec1 .kiri .tombol a{
+.sec1 .kiri .tombol{
     text-decoration: none;
     color: white;
     font-family: 'Inter', sans-serif;
@@ -173,7 +180,7 @@ body,html{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 766px;
+    height: 670px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
 }
@@ -866,7 +873,7 @@ body,html{
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 766px;
+        height: 670px;
         background-color: rgb(255, 255, 255);
         box-sizing: border-box;
     }
@@ -2790,10 +2797,6 @@ body,html{
         font-weight: 400;
         font-size: 28px;
     }
-    .sec6 h3{
-        font-weight: 100;
-        font-size: 15px;
-    }
     .sec6 p{
         margin-top: 0px;
         font-weight: 100;
@@ -3432,7 +3435,7 @@ body,html{
         text-align: center;
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
-        font-size: 56px;
+        font-size: 10vw;
     }
     .sec4 h2{
         font-weight: 400;
@@ -3518,11 +3521,7 @@ body,html{
     }
     .sec6 h2{
         font-weight: 400;
-        font-size: 28px;
-    }
-    .sec6 h3{
-        font-weight: 100;
-        font-size: 15px;
+        font-size: 24px;
     }
     .sec6 p{
         margin-top: 0px;
