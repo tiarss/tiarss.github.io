@@ -17,6 +17,10 @@ html{
 .about h2 img{
     margin-left: 10px;
 }
+.sec6 .achieve ul li{
+     list-style: none;   
+     
+}
 footer {
     display: flex;
     justify-content: center;
@@ -2774,6 +2778,7 @@ body,html{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        flex-direction: column;
         width: 80%;
         padding: 10px 30px;
         background-color: #26f;
@@ -2784,6 +2789,7 @@ body,html{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        flex-direction: column;
         width: 80%;
         padding: 10px 30px;
         background-color: #26f;
@@ -2808,6 +2814,7 @@ body,html{
     .sec6 li {
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
+        margin-left: -20px;
     }
     .sec5{
         display: flex;
@@ -3501,6 +3508,7 @@ body,html{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        flex-direction: column;
         width: 80%;
         padding: 10px 30px;
         background-color: #26f;
@@ -3511,11 +3519,13 @@ body,html{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        flex-direction: column;
         width: 80%;
         padding: 10px 30px;
         background-color: #26f;
         border-radius: 20px;
     }
+
     .sec6 h1{
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
@@ -3535,6 +3545,7 @@ body,html{
     .sec6 li {
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
+        margin-left: -20px;
     } 
   }
   /* asdas */
