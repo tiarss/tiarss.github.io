@@ -126,6 +126,7 @@ html,body{
 .pic h1{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
+    text-align: center;
     font-size: 3rem;
 }
 .sec-1{
@@ -142,7 +143,7 @@ html,body{
     align-self: flex-start;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding: 0 15%;
     margin-bottom: 0px;
 }
@@ -300,6 +301,12 @@ html,body{
     .burger .check:checked ~ :nth-child(4){
         transform: rotate(-45deg) translateY(-1px);
     }
+    .pic h1{
+        font-size: 2.5rem;
+    }
+    .sec-1 h2{
+        font-size: 1.5rem;
+    }
 }
 @media ( max-width: 480px ){
     .navbar{
@@ -425,7 +432,10 @@ html,body{
         font-family: 'Noto Sans JP', sans-serif;
         font-weight: 400;
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         margin-top:50px;
+    }
+    .sec-1 h2{
+        font-size: 1.3rem;
     }
 }

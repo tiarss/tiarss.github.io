@@ -637,6 +637,11 @@ body,html{
     background-position: center;
     background-size: 400px;
 }
+.k-p2{
+    background-image: url("/img/pport-prog2.png");
+    background-position: center;
+    background-size: 400px;
+}
 .bungkus .kotak1:hover{
     background-size: 390px;
     filter: grayscale(0);
