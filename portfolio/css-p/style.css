@@ -162,7 +162,7 @@ html,body{
 }
 .sec-1 p{
     padding: 0 15%;
-    text-align: justify;
+    text-align: left;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
 }
